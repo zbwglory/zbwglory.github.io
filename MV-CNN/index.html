@@ -219,7 +219,6 @@ div.paper pre {
 </div>
 
 
-
 <div style="clear: both;">
 <div class="section">
   <h2>Downloads</h2>
@@ -227,6 +226,23 @@ div.paper pre {
 		<a href="https://github.com/zbwglory/MV-release"> Code </a> for extracting motion vector is released.
 		<br>
     Models and Prototxts will be coming soon.
+  </div>
+</div>
+</div>
+
+<div style="clear: both;">
+<div class="section">
+  <h2>Steps for implementing MV-CNN</h2>
+  <div class="paper">
+		1. Using motion vector <a href="https://github.com/zbwglory/MV-release"> code </a> to generate Motion Vector Images.
+		<br>
+		2. Generating the file list for training. The list should follow this <a href="https://github.com/yjxiong/caffe/blob/action_recog/examples/action_recognition/dataset_file_examples/train_flow_split1.txt"> format </a>
+		<br>
+		3. We use the VideoData layer as input and Clarifai Net (CNN-M-2048) with PReLU to train MV-CNN.
+		<br>
+		4. For data augmentation, random crop, random filp and multi-scale (scale_ratio: [1,.875,.75]) are used.
+		<br>
+		5. Following these steps, you should get 74.4% (MV-CNN train from scratch) for UCF-101 Split1.
   </div>
 </div>
 </div>
