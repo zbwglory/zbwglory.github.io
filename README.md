@@ -1,3 +1,1 @@
-# zbwglory.github.io
-Hompage of Bowen ZHANG
-Updated
+# Homepage of Bowen Zhang 
