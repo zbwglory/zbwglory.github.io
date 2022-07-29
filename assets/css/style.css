@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
 body { background-color: #fff; padding: 0px; font: 16.0px/1.5 Crimson Pro, serif; color: #595959; font-weight: 400; margin: 0; }
 
-.social-icons a { display: inline-block; height: 3rem; width: 3rem; background-color: #495057; color: #fff !important; border-radius: 100%; text-align: center; font-size: 1.5rem; line-height: 3.1rem; margin-right: 1rem; }
+.social-icons a { display: inline-block; height: 2.5rem; width: 2.5rem; background-color: #495057; color: #fff !important; border-radius: 100%; text-align: center; font-size: 1.5rem; line-height: 2.7rem; margin-right: 1rem; }
 
 .social-icons a:last-child { margin-right: 0; }
 
